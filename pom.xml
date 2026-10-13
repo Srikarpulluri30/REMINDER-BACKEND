@@ -62,7 +62,14 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- 6. MySQL Driver: JDBC driver for MySQL database connectivity -->
+		<!-- 6. PostgreSQL Driver: JDBC driver for PostgreSQL database connectivity on Render -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- 7. MySQL Driver: JDBC driver for optional local MySQL development -->
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
