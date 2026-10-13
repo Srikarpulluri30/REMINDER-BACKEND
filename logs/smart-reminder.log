@@ -1,0 +1,58 @@
+2026-10-13 09:22:29.002 INFO  [background-preinit] o.h.validator.internal.util.Version : HV000001: Hibernate Validator 8.0.1.Final
+2026-10-13 09:22:29.090 INFO  [main] c.s.SmartReminderApplication : Starting SmartReminderApplication using Java 26.0.2.1 with PID 11296 (C:\Users\M S I\OneDrive\Desktop\TT PR\smart-reminder-backend\target\classes started by M S I in c:\Users\M S I\OneDrive\Desktop\TT PR\smart-reminder-backend)
+2026-10-13 09:22:29.092 DEBUG [main] c.s.SmartReminderApplication : Running with Spring Boot v3.3.4, Spring v6.1.13
+2026-10-13 09:22:29.094 INFO  [main] c.s.SmartReminderApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-13 09:22:32.159 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-13 09:22:32.384 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 198 ms. Found 2 JPA repository interfaces.
+2026-10-13 09:22:33.641 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2026-10-13 09:22:33.671 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-13 09:22:33.676 INFO  [main] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2026-10-13 09:22:33.677 INFO  [main] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-10-13 09:22:33.836 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2026-10-13 09:22:33.837 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4681 ms
+2026-10-13 09:22:34.357 INFO  [main] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-13 09:22:34.708 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-10-13 09:22:34.785 INFO  [main] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2026-10-13 09:22:35.275 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-13 09:22:35.348 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2026-10-13 09:22:36.519 INFO  [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e6bd367
+2026-10-13 09:22:36.522 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2026-10-13 09:22:37.876 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-13 09:22:38.287 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-13 09:22:38.853 DEBUG [main] c.s.security.JwtAuthenticationFilter : Filter 'jwtAuthenticationFilter' configured for use
+2026-10-13 09:22:39.042 INFO  [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-13 09:22:39.045 WARN  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2026-10-13 09:22:39.247 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-13 09:22:39.797 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-13 09:22:40.739 INFO  [main] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2026-10-13 09:22:40.771 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2026-10-13 09:22:40.785 INFO  [main] c.s.SmartReminderApplication : Started SmartReminderApplication in 12.791 seconds (process running for 13.434)
+2026-10-13 09:23:47.347 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-13 09:23:47.348 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2026-10-13 09:23:47.358 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 5 ms
+2026-10-13 09:23:48.269 DEBUG [http-nio-8080-exec-2] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserReminders() completed in 37 ms
+2026-10-13 09:23:48.281 DEBUG [http-nio-8080-exec-2] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllRemindersUnpaged() completed in 55 ms
+2026-10-13 09:23:48.525 DEBUG [http-nio-8080-exec-3] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserReminders() completed in 26 ms
+2026-10-13 09:23:48.531 DEBUG [http-nio-8080-exec-3] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllRemindersUnpaged() completed in 34 ms
+2026-10-13 09:23:48.779 DEBUG [http-nio-8080-exec-5] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserRemindersPaged() completed in 42 ms
+2026-10-13 09:23:48.785 DEBUG [http-nio-8080-exec-5] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllReminders() completed in 50 ms
+2026-10-13 09:23:48.888 DEBUG [http-nio-8080-exec-6] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserRemindersPaged() completed in 38 ms
+2026-10-13 09:23:48.895 DEBUG [http-nio-8080-exec-6] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllReminders() completed in 49 ms
+2026-10-13 09:23:50.358 DEBUG [http-nio-8080-exec-7] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserReminders() completed in 35 ms
+2026-10-13 09:23:50.370 DEBUG [http-nio-8080-exec-7] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllRemindersUnpaged() completed in 49 ms
+2026-10-13 09:23:50.436 DEBUG [http-nio-8080-exec-8] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserReminders() completed in 26 ms
+2026-10-13 09:23:50.444 DEBUG [http-nio-8080-exec-8] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllRemindersUnpaged() completed in 35 ms
+2026-10-13 09:26:35.722 DEBUG [http-nio-8080-exec-1] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserRemindersPaged() completed in 14 ms
+2026-10-13 09:26:35.724 DEBUG [http-nio-8080-exec-1] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllReminders() completed in 17 ms
+2026-10-13 09:26:35.759 DEBUG [http-nio-8080-exec-2] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserRemindersPaged() completed in 14 ms
+2026-10-13 09:26:35.763 DEBUG [http-nio-8080-exec-2] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllReminders() completed in 19 ms
+2026-10-13 09:26:38.884 DEBUG [http-nio-8080-exec-3] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserReminders() completed in 12 ms
+2026-10-13 09:26:38.887 DEBUG [http-nio-8080-exec-3] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllRemindersUnpaged() completed in 17 ms
+2026-10-13 09:26:38.919 DEBUG [http-nio-8080-exec-4] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserReminders() completed in 12 ms
+2026-10-13 09:26:38.922 DEBUG [http-nio-8080-exec-4] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllRemindersUnpaged() completed in 16 ms
+2026-10-13 09:40:02.068 WARN  [http-nio-8080-exec-8] c.s.c.PerformanceMonitoringAspect : [PERF-SLOW] AuthServiceImpl.login() executed in 451 ms (exceeded threshold of 250 ms)
+2026-10-13 09:40:02.068 WARN  [http-nio-8080-exec-8] c.s.c.PerformanceMonitoringAspect : [PERF-SLOW] AuthController.login() executed in 451 ms (exceeded threshold of 250 ms)
+2026-10-13 09:40:02.118 DEBUG [http-nio-8080-exec-9] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserRemindersPaged() completed in 14 ms
+2026-10-13 09:40:02.121 DEBUG [http-nio-8080-exec-9] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllReminders() completed in 18 ms
+2026-10-13 09:40:02.151 DEBUG [http-nio-8080-exec-10] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderServiceImpl.getAllUserRemindersPaged() completed in 10 ms
+2026-10-13 09:40:02.155 DEBUG [http-nio-8080-exec-10] c.s.c.PerformanceMonitoringAspect : [PERF] ReminderController.getAllReminders() completed in 15 ms
